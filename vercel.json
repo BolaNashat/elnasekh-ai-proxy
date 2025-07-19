@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "functions": {
-    "api/ask.js": {
-      "runtime": "nodejs18.x"
+  "builds": [
+    {
+      "src": "api/ask.js",
+      "use": "@vercel/node"
     }
-  },
+  ],
   "routes": [
     {
       "src": "/api/ask",
