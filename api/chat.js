@@ -7,7 +7,7 @@ export default async function handler(req, res) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Authorization": `Bearer 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` // ← ضع مفتاحك هنا
+        "Authorization": `Bearer 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` // ← ضع مفتاحك هنا
       },
       body: JSON.stringify({
         model: "gpt-3.5-turbo",
