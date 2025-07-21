@@ -1,9 +1,15 @@
 {
   "version": 2,
+  "builds": [
+    {
+      "src": "api/hugchat.js",
+      "use": "@vercel/node"
+    }
+  ],
   "routes": [
     {
       "src": "/api/chat",
-      "dest": "/api/hugchat.js"
+      "dest": "api/hugchat.js"
     }
   ]
 }
