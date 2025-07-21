@@ -10,7 +10,7 @@ export default async function handler(req, res) {
     const userInput = body.question;
 
     const response = await fetch(
-      "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-alpha",
+      "https://"https://hf.space/embed/BolaNash/deepseek-ai-DeepSeek/api/predict/",
       {
         method: "POST",
         headers: {
